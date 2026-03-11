@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RestoPOS – Smart POS & Billing Software for Restaurants & Cafes</title>
+  <meta name="description" content="RestoPOS simplifies billing, inventory, and order management for restaurants, cafes, bakeries, and food businesses. Book a free demo today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon"><i class="fas fa-utensils"></i></span>
+        <span>Resto<span class="accent">POS</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#screenshots">Preview</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#demo" class="btn btn-primary nav-cta">Book a Demo</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-content" data-aos="fade-right">
+        <div class="badge-pill">
+          <span class="badge-dot"></span>
+          Trusted by 2,000+ Food Businesses
+        </div>
+        <h1>Smart POS &amp; Billing Software for <span class="gradient-text">Restaurants &amp; Cafes</span></h1>
+        <p class="hero-sub">Simplify billing, manage inventory, handle orders, and grow your food business — all from one powerful, easy-to-use platform. Works online &amp; offline.</p>
+        <div class="hero-ctas">
+          <a href="#demo" class="btn btn-primary btn-lg">
+            <i class="fas fa-calendar-check"></i> Book a Free Demo
+          </a>
+          <a href="#features" class="btn btn-ghost btn-lg">
+            <i class="fas fa-play-circle"></i> View Features
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>2,000+</strong>
+            <span>Businesses</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>50L+</strong>
+            <span>Bills Generated</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>99.9%</strong>
+            <span>Uptime</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-mockup" data-aos="fade-left">
+        <div class="mockup-glow"></div>
+        <div class="mockup-frame">
+          <div class="mockup-bar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          </div>
+          <img src="pos_dashboard.png" alt="RestoPOS Dashboard" class="mockup-img" />
+        </div>
+        <div class="floating-card card-1">
+          <i class="fas fa-receipt" style="color:#a78bfa"></i>
+          <div>
+            <strong>Bill Generated</strong>
+            <span>Table 7 — ₹485</span>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <i class="fas fa-chart-line" style="color:#34d399"></i>
+          <div>
+            <strong>Today's Sales</strong>
+            <span>₹12,840</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUSTED BY SECTION ========== -->
+  <section class="trusted" id="trusted">
+    <div class="container">
+      <p class="trusted-label">Trusted by restaurants, cafes &amp; food businesses across India</p>
+      <div class="trusted-logos">
+        <div class="trusted-logo"><i class="fas fa-coffee"></i><span>Brew Café</span></div>
+        <div class="trusted-logo"><i class="fas fa-pizza-slice"></i><span>Pizza Hut</span></div>
+        <div class="trusted-logo"><i class="fas fa-ice-cream"></i><span>Chill Scoops</span></div>
+        <div class="trusted-logo"><i class="fas fa-bread-slice"></i><span>Daily Bread</span></div>
+        <div class="trusted-logo"><i class="fas fa-drumstick-bite"></i><span>Spice Garden</span></div>
+        <div class="trusted-logo"><i class="fas fa-truck"></i><span>Street Eats</span></div>
+        <div class="trusted-logo"><i class="fas fa-store"></i><span>Baker's Den</span></div>
+        <div class="trusted-logo"><i class="fas fa-utensils"></i><span>The Bistro</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES SECTION ========== -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Features</span>
+        <h2>Everything Your Restaurant <span class="gradient-text">Needs</span></h2>
+        <p>A complete toolkit built for the modern food business — from a single café to a chain of restaurants.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon" style="--icon-color: #a78bfa;">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Fast Billing System</h3>
+          <p>Generate GST-compliant bills in seconds. Support for KOT, split bills, discounts, and multiple payment modes.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="feature-icon" style="--icon-color: #60a5fa;">
+            <i class="fas fa-th-large"></i>
+          </div>
+          <h3>Table Management</h3>
+          <p>Visual floor plan to manage dine-in orders, table status, and transfers with a single tap.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon" style="--icon-color: #34d399;">
+            <i class="fas fa-boxes"></i>
+          </div>
+          <h3>Inventory Management</h3>
+          <p>Track raw materials, get low-stock alerts, and reduce wastage with real-time stock monitoring.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="feature-icon" style="--icon-color: #f97316;">
+            <i class="fas fa-fire"></i>
+          </div>
+          <h3>Kitchen Order Display</h3>
+          <p>Instantly send orders to the kitchen display. Reduce miscommunication and speed up food delivery.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon" style="--icon-color: #f59e0b;">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>Sales Reports &amp; Analytics</h3>
+          <p>Daily, weekly, and monthly sales reports. Identify best-selling items, peak hours, and revenue trends.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="feature-icon" style="--icon-color: #ec4899;">
+            <i class="fas fa-file-invoice-dollar"></i>
+          </div>
+          <h3>GST Billing</h3>
+          <p>Auto-calculate SGST, CGST, IGST. Generate GST-ready invoices and export for filing with ease.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon" style="--icon-color: #10b981;">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <h3>Online &amp; Offline Mode</h3>
+          <p>Keep billing going even without internet. Data syncs automatically once you're back online.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="feature-icon" style="--icon-color: #6366f1;">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <h3>Multi-Device Support</h3>
+          <p>Run on tablets, PCs, and phones simultaneously. Perfect for busy multi-station restaurants.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-icon" style="--icon-color: #14b8a6;">
+            <i class="fas fa-users-cog"></i>
+          </div>
+          <h3>Staff Management</h3>
+          <p>Set roles and permissions for staff. Track shift-wise sales and manage waiter/captain assignment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS SECTION ========== -->
+  <section class="how-it-works section" id="how-it-works">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Process</span>
+        <h2>Get Started in <span class="gradient-text">4 Simple Steps</span></h2>
+        <p>From setup to billing — be ready in less than an hour.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="step-number">01</div>
+          <div class="step-icon"><i class="fas fa-download"></i></div>
+          <h3>Install POS</h3>
+          <p>Download and install RestoPOS on any device — Windows, Android, or iOS tablet. Quick 5-minute setup.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-number">02</div>
+          <div class="step-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Add Menu Items</h3>
+          <p>Enter your menu with categories, variants, prices, and GST slabs. Import from Excel or add manually.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-number">03</div>
+          <div class="step-icon"><i class="fas fa-cash-register"></i></div>
+          <h3>Start Billing</h3>
+          <p>Take orders, print KOT, generate bills, and accept payments — all from a single, intuitive screen.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-number">04</div>
+          <div class="step-icon"><i class="fas fa-chart-pie"></i></div>
+          <h3>Track Reports</h3>
+          <p>View real-time analytics, export reports, and make smarter business decisions every day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SCREENSHOTS SECTION ========== -->
+  <section class="screenshots section" id="screenshots">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Product Preview</span>
+        <h2>See RestoPOS <span class="gradient-text">In Action</span></h2>
+        <p>Clean, intuitive interface designed for speed and simplicity.</p>
+      </div>
+      <div class="carousel-wrapper" data-aos="fade-up">
+        <div class="carousel-tabs">
+          <button class="carousel-tab active" data-index="0"><i class="fas fa-cash-register"></i> Billing</button>
+          <button class="carousel-tab" data-index="1"><i class="fas fa-tachometer-alt"></i> Dashboard</button>
+          <button class="carousel-tab" data-index="2"><i class="fas fa-chart-bar"></i> Reports</button>
+          <button class="carousel-tab" data-index="3"><i class="fas fa-boxes"></i> Inventory</button>
+        </div>
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <div class="screenshot-frame">
+              <div class="screenshot-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="url-bar">restpos.app / billing</span>
+              </div>
+              <img src="pos_dashboard.png" alt="Billing Screen" />
+            </div>
+            <div class="screenshot-caption">
+              <h3>Smart Billing Screen</h3>
+              <p>Take orders, apply discounts, and generate GST bills with one click.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="screenshot-frame">
+              <div class="screenshot-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="url-bar">restpos.app / dashboard</span>
+              </div>
+              <img src="reports_dashboard.png" alt="Dashboard Screen" />
+            </div>
+            <div class="screenshot-caption">
+              <h3>Real-Time Dashboard</h3>
+              <p>Monitor daily revenue, active orders, and top items at a glance.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="screenshot-frame">
+              <div class="screenshot-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="url-bar">restpos.app / reports</span>
+              </div>
+              <img src="reports_dashboard.png" alt="Reports Screen" />
+            </div>
+            <div class="screenshot-caption">
+              <h3>Detailed Sales Reports</h3>
+              <p>Break down revenue by day, category, staff, or table. Export to PDF or Excel.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <div class="screenshot-frame">
+              <div class="screenshot-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="url-bar">restpos.app / inventory</span>
+              </div>
+              <img src="inventory_screen.png" alt="Inventory Screen" />
+            </div>
+            <div class="screenshot-caption">
+              <h3>Inventory Control</h3>
+              <p>Track stock levels, set alerts, and reduce wastage with smart inventory tools.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="carousel-prev" id="carouselPrev"><i class="fas fa-chevron-left"></i></button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-next" id="carouselNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BENEFITS SECTION ========== -->
+  <section class="benefits section" id="benefits">
+    <div class="container benefits-inner">
+      <div class="benefits-text" data-aos="fade-right">
+        <span class="section-tag">Why RestoPOS</span>
+        <h2>Built to Help Your Business <span class="gradient-text">Thrive</span></h2>
+        <p>Whether you run a single café or a chain of restaurants, RestoPOS gives you the tools to work smarter, not harder.</p>
+        <a href="#demo" class="btn btn-primary">Get Started Free</a>
+      </div>
+      <div class="benefits-cards" data-aos="fade-left">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <h3>Save Time</h3>
+            <p>Automate billing, reports, and inventory updates. Spend less time on admin, more on your guests.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+          <div>
+            <h3>Reduce Billing Errors</h3>
+            <p>Eliminate manual calculation mistakes. Auto-apply GST, discounts, and pricing every time.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-layer-group"></i></div>
+          <div>
+            <h3>Manage Inventory Easily</h3>
+            <p>Know exactly what's in stock. Prevent stockouts and reduce over-purchasing with smart alerts.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fas fa-rocket"></i></div>
+          <div>
+            <h3>Increase Business Efficiency</h3>
+            <p>Speed up order processing, reduce wait times, and serve more customers with the same team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DEMO BOOKING SECTION ========== -->
+  <section class="demo section" id="demo">
+    <div class="container demo-inner">
+      <div class="demo-text" data-aos="fade-right">
+        <span class="section-tag">Book a Demo</span>
+        <h2>See RestoPOS <span class="gradient-text">Live</span> in Your Restaurant</h2>
+        <p>Get a free, personalised 30-minute demo with our product expert. We'll show how RestoPOS works for your specific business type.</p>
+        <ul class="demo-perks">
+          <li><i class="fas fa-check"></i> Free setup assistance</li>
+          <li><i class="fas fa-check"></i> 14-day free trial</li>
+          <li><i class="fas fa-check"></i> No credit card required</li>
+          <li><i class="fas fa-check"></i> Dedicated onboarding support</li>
+        </ul>
+      </div>
+      <div class="demo-form-wrap" data-aos="fade-left">
+        <form class="demo-form" id="demoForm" onsubmit="handleFormSubmit(event)">
+          <h3>Book My Free Demo</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" placeholder="Rahul Sharma" required />
+            </div>
+            <div class="form-group">
+              <label for="business">Business Name *</label>
+              <input type="text" id="business" name="business" placeholder="Sharma's Café" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="rahul@example.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="city">City *</label>
+              <input type="text" id="city" name="city" placeholder="Mumbai" required />
+            </div>
+            <div class="form-group">
+              <label for="biztype">Business Type</label>
+              <select id="biztype" name="biztype">
+                <option value="">Select Type</option>
+                <option>Restaurant</option>
+                <option>Café / Coffee Shop</option>
+                <option>Ice Cream Parlour</option>
+                <option>Bakery</option>
+                <option>Food Truck</option>
+                <option>QSR / Fast Food</option>
+                <option>Cloud Kitchen</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="message">Message / Requirements</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us about your business needs..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fas fa-calendar-check"></i> Book My Free Demo
+          </button>
+          <p class="form-note">We'll reach out within 24 hours. 100% spam-free.</p>
+        </form>
+        <div class="form-success" id="formSuccess" style="display:none;">
+          <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+          <h3>Demo Booked Successfully! 🎉</h3>
+          <p>Our team will contact you within 24 hours to schedule your personalised demo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING SECTION ========== -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Pricing</span>
+        <h2>Simple, Transparent <span class="gradient-text">Pricing</span></h2>
+        <p>No hidden fees. Choose the plan that fits your business size.</p>
+      </div>
+      <div class="pricing-toggle" data-aos="fade-up">
+        <span>Monthly</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="pricingToggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <span>Yearly <span class="save-badge">Save 20%</span></span>
+      </div>
+      <div class="pricing-grid" data-aos="fade-up">
+        <!-- Starter -->
+        <div class="pricing-card">
+          <div class="plan-name">Starter</div>
+          <div class="plan-desc">Perfect for small cafés &amp; food stalls</div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount" data-monthly="1499" data-yearly="1199">1499</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> 1 Device / Terminal</li>
+            <li><i class="fas fa-check"></i> Unlimited Billing</li>
+            <li><i class="fas fa-check"></i> GST Invoicing</li>
+            <li><i class="fas fa-check"></i> Basic Reports</li>
+            <li><i class="fas fa-check"></i> Offline Mode</li>
+            <li><i class="fas fa-check"></i> Email Support</li>
+            <li class="disabled"><i class="fas fa-times"></i> Table Management</li>
+            <li class="disabled"><i class="fas fa-times"></i> Inventory Management</li>
+            <li class="disabled"><i class="fas fa-times"></i> KDS / Kitchen Display</li>
+          </ul>
+          <a href="#demo" class="btn btn-outline btn-block">Get Started</a>
+        </div>
+        <!-- Professional (Popular) -->
+        <div class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="plan-name">Professional</div>
+          <div class="plan-desc">Ideal for restaurants &amp; multi-staff businesses</div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount" data-monthly="2999" data-yearly="2399">2999</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Up to 3 Devices</li>
+            <li><i class="fas fa-check"></i> Unlimited Billing</li>
+            <li><i class="fas fa-check"></i> GST Invoicing</li>
+            <li><i class="fas fa-check"></i> Advanced Reports</li>
+            <li><i class="fas fa-check"></i> Offline Mode</li>
+            <li><i class="fas fa-check"></i> Priority Support</li>
+            <li><i class="fas fa-check"></i> Table Management</li>
+            <li><i class="fas fa-check"></i> Inventory Management</li>
+            <li><i class="fas fa-check"></i> KDS / Kitchen Display</li>
+          </ul>
+          <a href="#demo" class="btn btn-primary btn-block">Get Started</a>
+        </div>
+        <!-- Enterprise -->
+        <div class="pricing-card">
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-desc">For chains, franchises &amp; large operations</div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount" data-monthly="5999" data-yearly="4799">5999</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Unlimited Devices</li>
+            <li><i class="fas fa-check"></i> Unlimited Billing</li>
+            <li><i class="fas fa-check"></i> GST &amp; Multi-GST</li>
+            <li><i class="fas fa-check"></i> Custom Reports</li>
+            <li><i class="fas fa-check"></i> Offline Mode</li>
+            <li><i class="fas fa-check"></i> 24/7 Dedicated Support</li>
+            <li><i class="fas fa-check"></i> Table Management</li>
+            <li><i class="fas fa-check"></i> Inventory Management</li>
+            <li><i class="fas fa-check"></i> Multi-Outlet Support</li>
+          </ul>
+          <a href="#demo" class="btn btn-outline btn-block">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Testimonials</span>
+        <h2>What Restaurant Owners <span class="gradient-text">Say</span></h2>
+        <p>Real feedback from real food businesses across India.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"RestoPOS completely transformed how we handle orders. Billing that used to take 5 minutes now takes 30 seconds. Our customers are happier and so is my team!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RS</div>
+            <div>
+              <strong>Rajesh Sharma</strong>
+              <span>Owner, Sharma's Dhaba – Pune</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Managing inventory was our biggest headache. Since we switched to RestoPOS, we've cut food wastage by 30% and always know what's running low. Brilliant software!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#f97316,#ef4444)">PM</div>
+            <div>
+              <strong>Priya Menon</strong>
+              <span>Manager, The Coastal Kitchen – Kochi</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"I run an ice cream parlour and tried 3 other POS systems before finding RestoPOS. The offline mode is a lifesaver and the GST billing is perfect. Highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#ec4899,#a855f7)">AK</div>
+            <div>
+              <strong>Anjali Kapoor</strong>
+              <span>Owner, Chill Zone – Jaipur</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"We have 3 outlets in Bangalore. RestoPOS lets me see real-time sales across all of them from my phone. The multi-outlet support is exactly what we needed!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#10b981,#3b82f6)">VN</div>
+            <div>
+              <strong>Vikram Nair</strong>
+              <span>Director, Nair's Bakery Chain – Bangalore</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ SECTION ========== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">FAQ</span>
+        <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+        <p>Everything you need to know before you get started.</p>
+      </div>
+      <div class="faq-list" data-aos="fade-up">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is RestoPOS GST compliant?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, RestoPOS is fully GST compliant. It auto-calculates SGST, CGST, and IGST based on your item setup. You can also generate GSTR-1 compatible reports and export them for easy filing.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Does it work offline?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. RestoPOS has a robust offline mode. You can continue billing, printing, and managing orders without internet. All data syncs automatically when connectivity is restored.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I manage multiple outlets?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Our Enterprise plan supports multiple outlets from a single dashboard. View consolidated reports, manage menus centrally, and track performance across all locations in real-time.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What kind of customer support is available?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We offer email support for Starter plans, priority phone and chat support for Professional, and a dedicated account manager with 24/7 support for Enterprise customers. Free onboarding training is included with all plans.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Which devices does RestoPOS support?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>RestoPOS works on Windows PCs, Android tablets, and iOS iPads. It supports thermal printers, barcode scanners, cash drawers, and kitchen display screens via USB or Bluetooth.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is there a free trial?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We offer a 14-day free trial with full access to all Professional plan features. No credit card required. You can also book a free live demo with our team before committing.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I import my existing menu?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, you can import your menu from an Excel or CSV file. Our team also offers free data migration assistance during onboarding to help you get set up quickly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <section class="cta-banner section">
+    <div class="container" data-aos="zoom-in">
+      <div class="cta-banner-inner">
+        <div class="cta-banner-shapes">
+          <div class="cta-shape cta-shape-1"></div>
+          <div class="cta-shape cta-shape-2"></div>
+        </div>
+        <h2>Ready to Transform Your Restaurant?</h2>
+        <p>Join 2,000+ food businesses already using RestoPOS to save time, reduce errors, and grow profitably.</p>
+        <div class="cta-buttons">
+          <a href="#demo" class="btn btn-white btn-lg">Book a Free Demo</a>
+          <a href="tel:+918888888888" class="btn btn-ghost-white btn-lg"><i class="fas fa-phone"></i> Call Us Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-footer">
+          <span class="logo-icon"><i class="fas fa-utensils"></i></span>
+          <span>Resto<span class="accent">POS</span></span>
+        </a>
+        <p>Smart billing &amp; POS software for restaurants, cafes, bakeries, and all food businesses. Simple. Fast. Reliable.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#screenshots">Preview</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#demo">Book a Demo</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Business Types</h4>
+        <ul>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">Cafés &amp; Coffee Shops</a></li>
+          <li><a href="#">Ice Cream Parlours</a></li>
+          <li><a href="#">Bakeries</a></li>
+          <li><a href="#">Food Trucks</a></li>
+          <li><a href="#">Cloud Kitchens</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-phone"></i> <a href="tel:+918888888888">+91 88888 88888</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:hello@restopos.in">hello@restopos.in</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</p>
+        <div class="footer-badges">
+          <span class="footer-badge"><i class="fas fa-shield-alt"></i> Secure & Trusted</span>
+          <span class="footer-badge"><i class="fas fa-file-invoice"></i> GST Ready</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2024 RestoPOS. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
